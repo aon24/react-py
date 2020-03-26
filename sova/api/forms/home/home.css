@@ -1,0 +1,65 @@
+body {
+    background: #ffffff;
+    font-family: Verdana, arial;
+    font-size:14px;
+    line-height:1.4;
+    color:#333;
+}
+.topnav {
+    background: #428ddf;
+    font-size: 14px;
+    display: table;
+    width: calc(100% - 152px);
+    border-top-left-radius: 30px;
+}
+.topnav>a, .topnav>div {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    text-align: center;
+    background: #428ddf;
+    color: white;
+    text-decoration: none;
+    width: 15%;
+    padding: 5px 10px;
+    display: table-cell;
+}
+.topnav>a:hover, .topnav>div:hover {
+    background:#155ba9;
+}
+.hello {
+    font: normal 24px/1 Verdana, Arial;
+    color: #155ba9;
+    text-align: center;
+}
+.repName {
+    background-color: #eff8ff;
+    border: 0 solid #ccc;
+    border-bottom-width: 1px;
+    font: normal 10pt Arial;
+    padding: 4px 4px 4px 27px;
+    text-indent: -24px;
+    cursor: pointer;
+    display: block;
+}
+.repNameSel {
+    background-color: rgb(30, 144, 255);
+    border-bottom-color: transparent;
+    color: white;
+}
+.sova {
+    text-align:center;
+    padding-top:110px;
+    font: bold 25px/0.85 Verdana, Arial;
+    color: rgba(240, 240, 240, 0.45);
+    text-shadow: 15px 15px 4px rgba(0, 0, 0, 0.3);
+    background: url(/image?owl.png);
+    background-size: 150px 145px;
+    width: 150px;
+    height: 145px;
+    float: left;
+    box-shadow: inset 0 0 15px 5px #fff;
+}
+p {
+    margin: 0;
+    text-indent: 20px;
+}

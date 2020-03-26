@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>report.html</title>
+<link rel="shortcut icon" href="image?printer.png">
+<link rel="stylesheet" href="jsv?api/react.js/sova-main.css">
+<script>
+window.onload = _ => {
+	window.document.addEventListener('keydown', kDown);
+	window.frames.mainFrame.document.addEventListener('keydown', kDown);
+};
+let kDown = e => {
+	if ( e.keyCode == 80 && e.ctrlKey ) {
+		top.frames.mainFrame.print();
+		e.preventDefault();
+	}
+	else if ( e.keyCode == 27 ) {
+		top.close();
+		e.preventDefault();
+	}
+};
+</script>
+</head>
+
+<body style="margin:0; overflow:hidden">
+<div class="toolbar">
+  <div class="toolbar-button" style="width:50mm" title="[ Ctrl-P ] Печать" onclick="window.frames.mainFrame.print()">П Е Ч А Т Ь</div>
+  <div class="toolbar-button" style="width:65mm" title="Открыть отчет в Excel"><a href="openExcel"><div>О Т К Р Ы Т Ь &nbsp; В &nbsp; M S &nbsp; E X C E L</div></a></div>
+  <div class="toolbar-button" style="width:65mm" title="Открыть документ в MS Word"><a href="openWord"><div>О Т К Р Ы Т Ь &nbsp; В &nbsp; M S &nbsp; W O R D</div></a></div>
+  <div class="toolbar-button" style="width:50mm" title="[Esc] закрыть окно" onclick="window.close()">З А К Р Ы Т Ь</div>
+</div>
+
+<iframe src="" name="mainFrame" scrolling="auto" style="width:100vw; min-height:calc(100vh - 32px); border:0"></iframe>
+</body>
+</html>

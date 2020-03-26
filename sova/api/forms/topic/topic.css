@@ -1,0 +1,15 @@
+.h2 {
+    font: bold 16px Verdana, Arial;
+    text-align: center;
+    padding: 5px 0;
+}
+.article {
+    font: normal 14px Verdana, Arial;
+    line-height: 22px;
+    text-indent: 20px;
+    text-align: justify;
+}
+p {
+    margin: 0;
+    text-indent: 20px;
+}

@@ -1,0 +1,8 @@
+.rubOG {
+height: calc(100vh - 135px);
+overflow: hidden auto;
+display: block;
+background: rgba(255,255,255, 0);
+}
+
+

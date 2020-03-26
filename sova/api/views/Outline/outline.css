@@ -1,0 +1,49 @@
+.selectedDoc>div {
+    font-weight: bold;
+}
+.mRow {
+    display: table-row;
+}
+.rRow {
+    display: table-row;
+}
+.mCell {
+    width: 93%;
+    font: normal 20px/1.4 Verdana Arial;
+    display: table-cell;
+    overflow: hidden;
+    border: 0px solid #eee;
+    border-bottom-width: 2px;
+    padding: 0 2px 2px 2px;
+    white-space: nowrap;
+}
+.rCell {
+    font: normal 16px Verdana, Arial;
+    display: table-cell;
+    overflow: hidden;
+    border: 0 dotted #ccc;
+    border-bottom-width: 1px;
+    padding: 0 2px 2px 12px;
+    white-space: nowrap;
+    color: #555;
+    cursor: pointer;
+
+}
+.expR, .expD, .expNo {
+    border: 0;
+    width: 15px;
+    padding: 5px 0;
+    cursor: pointer;
+    color: #428ddf;
+    font-size: 12px;
+}
+.expR:before {
+    content: '►';
+}
+.expD:before {
+    content: '▼';
+}
+.expNo:before {
+    content: ' ';
+}
+

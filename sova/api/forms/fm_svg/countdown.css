@@ -1,0 +1,26 @@
+.ddhhmmss {
+    display: inline-block;
+    width: 66px;
+    font: normal 16px Verdana;
+    color: rgba(128,0,64, 0.7);
+    text-align: center;
+}
+#countdown {
+    font: normal 20px Verdana;
+    color: rgba(128,0,64, 0.7);
+}
+#countdown > div {
+    display:inline-block;
+    height:25px;
+    overflow: hidden;
+    vertical-align:top;
+}
+#countdown > div > div {
+    transition: margin-top 500ms ease;
+}
+#countdown > div > div[notrans] {
+    transition: margin-top 0ms step-start;
+}
+#countdown > div > div > div {
+    height:30px;
+}
