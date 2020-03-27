@@ -1,0 +1,154 @@
+.shRow {
+    width: 100%;
+    display: block;
+    border: 0 solid #fff;
+    border-width: 0 3px 1px 3px;
+    border-bottom-color:#aaa;
+}
+.shCol {
+    display: table-cell;
+    margin: auto;
+    border: 2px solid #fff;
+}
+
+.btn {
+    margin: 0 18px;
+    vertical-align: top;
+    padding: 2px 5px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    font: bold 12px Verdana;
+    color: #13508d;
+    outline: none;
+    text-shadow: 1px 1px 1px #f0f0f0, 1px -1px 1px #f0f0f0, -1px -1px 1px #f0f0f0, -1px 1px 1px #f0f0f0;
+    background: radial-gradient(at 10% 13%, rgba(205, 243, 255, 0.2), rgba(41, 49, 56, 0)), linear-gradient(rgba(208, 226, 245, 0.5) 40%, rgba(140, 165, 190, 0.5) 60%) #ffffff;
+    border-radius: 3px;
+}
+.btn:hover, .btn2:hover {
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+    background-color: #bed7f0;
+}
+.btn2 {
+    border-radius: 4px;
+    font: bold 12px Verdana;
+    color: #f00;
+    float: right;
+    width: 62px;
+    text-shadow: 1px 1px 1px #f0f0f0, 1px -1px 1px #f0f0f0, -1px -1px 1px #f0f0f0, -1px 1px 1px #f0f0f0;
+}
+
+.norows {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    background :#9acd32;
+    position: relative;
+    border-radius: 100px;
+}
+.schTable {
+    display: table;
+    margin: auto;
+    border-spacing:0;
+}
+.cell {
+    border: 1px solid #eee;
+    display: table-cell;
+    color: #fff;
+    font: bold 12px Courier;
+    cursor: pointer;
+    min-width: 1.5em;
+    max-width: 1.5em;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.bigCell {
+    border: 1px solid #eee;
+    display: table-cell;
+    color: #fff;
+    font: bold 12px/0.8 Courier;
+    cursor: pointer;
+    min-width: 40px;
+    max-width: 40px;
+    height: 3em;
+    box-sizing: border-box;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 0 2px;
+}
+.cellTm {
+    min-width: 3.5em;
+    max-width: 3.5em;
+    border: 0px solid #ddd;
+    border-width: 0 0 1px 0;
+    display: table-cell;
+    color: blue;
+    font: bold 12px Courier;
+    background: #fff;
+    text-align: center;
+}
+.cellDay {
+    min-width: 1.5em;
+    max-width: 1.5em;
+    border: 0 solid #ddf;
+    border-width: 0 1px;
+    text-align: center;
+    display: table-cell;
+    color: blue;
+    font: bold 12px Courier;
+    background: #fff;
+}
+.bigCellDay {
+    min-width: 40px;
+    max-width: 40px;
+    border: 0 solid #ddf;
+    border-width: 0 1px;
+    text-align: center;
+    display: table-cell;
+    color: blue;
+    font: bold 12px Courier;
+    background: #fff;
+    box-sizing: border-box;
+}
+.chMonth {
+    color: black;
+    font: normal 14px Verdana;
+    letter-spacing: 1px;
+    display: table-cell;
+    width: 130px;
+}
+.exp {
+    font-size: 20px;
+    color: #888;
+    display: table-cell;
+    cursor: pointer;
+}
+.noBorder {
+    border-width: 0;
+}
+.F { background: #9acd32; } /* free */
+.bF { background: #9acd32; border: 3px solid #fff; border-width: 3px 5px} /* b - текущий день */
+.A { background: #ffa500; } /* аренда своя */
+.bA { background: #ffa500; border: 3px solid #fff; border-width: 3px 5px} /* аренда своя в текщий день*/
+.M { background: #ffa500; box-shadow: inset 0 0 3px 1px #00f; } /* аренда чужая своя */
+.bM { background: #ffa500; box-shadow: inset 0 0 3px 1px #00f; border: 3px solid #fff; border-width: 3px 5px} /* аренда чужая в текщий день*/
+.U, .bU { background: rgba(255,0,0, 0.7); }
+.mU, .bmU { background: #0000ff; border: 1px solid #ff0000; box-shadow: inset 0 0 0px 1px #f00;} /* мой уч. процесс старый */
+.u, .mu { background: #77efff; box-shadow: inset 0 0 3px 1px #f00;} /* мой уч. процесс новый */
+.bu, .bmu { background: #00efff; border: 3px solid #ff0000; box-shadow: inset 0 0 0px 1px #f00; }
+.mA, .mM { background: #0000ff; box-shadow: inset 0 0 3px 1px #def;}
+.a, .ma { background: #00efff; box-shadow: inset 0 0 3px 1px #00f;}
+.bmA, .bmM { background: #0000ff; box-shadow: inset 0 0 3px 1px #def; border: 2px solid #fff;}
+.ba, .bma { background: #00efff; box-shadow: inset 0 0 3px 1px #00f; border: 3px solid #fff; border-width: 3px 5px}
+
+
+
+
+
+
+
+
+
+
+
