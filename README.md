@@ -1,3 +1,3 @@
 # react-py
-#  реакт 17.4 - питон3.8
+#  react 17.0.2 - Python 3.8
  bridge between Python and React http://react-py.ru/
